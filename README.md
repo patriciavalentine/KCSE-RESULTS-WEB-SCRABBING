@@ -16,26 +16,33 @@ The data was sourced from the [official website of Moi Kapsowar Girls](https://m
 
 ### Project Structure
 1. Data Extraction:
-
-The webpage was accessed using the requests library, and the HTML content was retrieved.
-
-The HTML content was parsed using BeautifulSoup to locate the two target tables on the webpage.
+- The webpage was accessed using the requests library, and the HTML content was retrieved.
+- The HTML content was parsed using BeautifulSoup to locate the two target tables on the webpage.
 
 2. Data Cleaning and Structuring:
-
-The tables lacked headers, so appropriate column names were manually defined based on the data context.
-
-The first rows of the tables, which were not relevant to the analysis, were excluded from the final dataset.
-
-The data from each table was extracted, cleaned, and structured into pandas DataFrames.
+- The tables lacked headers, so appropriate column names were manually defined based on the data context.
+- The first rows of the tables, which were not relevant to the analysis, were excluded from the final dataset.
+- The data from each table was extracted, cleaned, and structured into pandas DataFrames.
 
 3. Data Export:
-
-The cleaned DataFrames were exported as CSV files for further analysis.
-
-The CSV files were saved to a specified directory, ensuring the data was organized and easily accessible.
+- The cleaned DataFrames were exported as CSV files for further analysis.
+- The CSV files were saved to a specified directory, ensuring the data was organized and easily accessible.
 
 **NB: For a detailed step-by-step explanation, follow through in the attached [script!](http://localhost:8888/notebooks/Web%20Scrapping%20Project.ipynb)**
+
+### Project Outcomes
+This project demonstrates an efficient approach to web scraping and data extraction, highlighting the importance of data cleaning and preparation in the data analysis pipeline.
+
+The extracted data is now structured and ready for deeper analytical insights, providing a solid foundation for subsequent data-driven decision-making.
+
+### Future Enhancements
+Future versions of the project will include an analysis of the extracted data, and generating summary statistics, visualizations, and reports.
+
+### Conclusion
+This web scraping project showcases the practical application of Python in automating data extraction and preparation tasks.
+The techniques used here can be extended to other web scraping projects, emphasizing the value of clean, structured data in the analytical process.
+
+*It reflects my proficiency in handling unstructured web data, ensuring it is transformed into a usable format for in-depth analysis.*
 
 #### Thank you!
 
