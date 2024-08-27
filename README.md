@@ -1,4 +1,4 @@
-# WEB SCRAPING PROJECT
+# 🕸️ WEB SCRAPING PROJECT
 ## Extracting and Analyzing School Performance Data
 ### Project Overview
 This project involves the extraction of tabular data from a webpage using Python.
